@@ -1,133 +1,181 @@
+
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SAI2破解版本</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #1c1c1c;
-            color: #fff;
-            margin: 0;
-            padding: 0;
-        }
-
-        .header {
-            background-color: #322713;
-            padding: 10px;
-            text-align: left;
-        }
-
-        .header img {
-            height: 40px;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            background-color: #222;
-            padding: 20px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-            border-radius: 8px;
-        }
-
-        h1 {
-            font-size: 24px;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        .file-list {
-            width: 100%;
-            margin-bottom: 20px;
-        }
-
-        .file-list th, .file-list td {
-            padding: 10px;
-            border-bottom: 1px solid #333;
-            text-align: left;
-        }
-
-        .file-list th {
-            font-weight: bold;
-        }
-
-        .file-list a {
-            color: #ffcc00;
-            text-decoration: none;
-        }
-
-        .file-list a:hover {
-            text-decoration: underline;
-        }
-
-        .download-button {
-            display: block;
-            width: 200px;
-            margin: 30px auto 0;
-            padding: 10px 20px;
-            background-color: transparent;
-            color: #fff;
-            border: 1px solid #fff;
-            text-align: center;
-            text-decoration: none;
-            border-radius: 4px;
-            transition: background-color 0.3s, color 0.3s;
-        }
-
-        .download-button:hover {
-            background-color: #fff;
-            color: #000;
-        }
-    </style>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My IP Address - BrowserLeaks</title>
+<meta name="description" content="The main tools for checking IP address privacy. Showing Your IP Address, Reverse IP Lookup, Hostname, and HTTP Request Headers, Your Country, State, City, ISP/ASN, and Local Lime, Whois Lookup, TCP/IP OS fingerprinting, WebRTC Leak Test, DNS Leak Test, and IPv6 Leak Test.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://browserleaks.com/ip">
+<meta property="og:site_name" content="BrowserLeaks">
+<meta property="og:title" content="My IP Address">
+<meta property="og:description" content="The main tools for checking IP address privacy. Showing Your IP Address, Reverse IP Lookup, Hostname, and HTTP Request Headers, Your Country, State, City, ISP/ASN, and Local Lime, Whois Lookup, TCP/IP OS fingerprinting, WebRTC Leak Test, DNS Leak Test, and IPv6 Leak Test.">
+<link type="text/css" rel="stylesheet" media="all" href="/css/style.css?v=59060426">
+<noscript><style type="text/css">.script{opacity:.5}.js-hide-block{display:block}</style></noscript>
+<script>(function(){var a='.doscript{display:block}.noscript{display:none!important}.script{opacity:1}',b=document.head||document.getElementsByTagName('head')[0],c=document.createElement('style');c.type='text/css';c.styleSheet?c.styleSheet.cssText=a:c.appendChild(document.createTextNode(a));b.appendChild(c)})()</script>
+<script src="/js/default.js?v=59060426"></script>
+<link rel="icon" sizes="32x32" href="https://browserleaks.com/favicon.ico">
+<link rel="icon" sizes="196x196" href="https://browserleaks.com/img/favicons/icon-196x196.png?v=49879122">
+<link rel="apple-touch-icon" sizes="180x180" href="https://browserleaks.com/img/favicons/apple-touch-icon.png?v=49879122">
+<link rel="manifest" href="https://browserleaks.com/manifest.json?v=49879122">
+<meta name="msapplication-config" content="https://browserleaks.com/browserconfig.xml?v=49879122">
 </head>
-<body>
+<body spellcheck="false"><div id="logo" class="responsive-hide"><a href="/" title="Home" tabindex="-1"><strong>BrowserLeaks</strong></a></div>
 
-    <div class="header">
-        <img src="https://via.placeholder.com/150x40?text=%E8%93%9D%E8%99%B9%E4%BA%91" alt="蓝奏云">
+<nav aria-haspopup="true">
+<div id="nav">
+  <div id="nav-pin" class="responsive-hide">
+    <form name="nav-pin-form" id="nav-pin-form" method="post" action="/ip" onsubmit="return false">
+    <input type="submit" id="nav-pin-submit" name="nav-pin-submit" value="1" title="Toggle Menu">
+    </form>
+  </div>
+  <div id="nav-hover">
+    <div id="nav-menu">
+      <input type="checkbox" autocomplete="off" aria-label="Menu" title="Menu">
+      <span class="nav-hb"></span><span class="nav-hb"></span><span class="nav-hb"></span>
+      <ul>
+      <li><div class="nav-close"></div></li>
+        <li class="margin"><a class="ico-index" href="/" title="Home Page" rel="nofollow">Home Page</a></li>
+        <li><a class="this ico-ip" href="/ip" title="What Is My IP Address" rel="nofollow">IP Address</a></li>
+        <li><a class="ico-javascript" href="/javascript" title="JavaScript Browser Information">JavaScript</a></li>
+        <li><a class="ico-webrtc" href="/webrtc" title="WebRTC Leak Test">WebRTC Leak Test</a></li>
+        <li><a class="ico-canvas" href="/canvas" title="HTML5 Canvas Fingerprinting">Canvas Fingerprint</a></li>
+        <li><a class="ico-webgl" href="/webgl" title="WebGL Browser Report">WebGL Report</a></li>
+        <li><a class="ico-fonts" href="/fonts" title="Font Fingerprinting">Font Fingerprinting</a></li>
+        <li><a class="ico-geo" href="/geo" title="HTML5 Geolocation API and Reverse Geocoding">Geolocation API</a></li>
+        <li><a class="ico-features" href="/features" title="HTML5 Features Detection">Features Detection</a></li>
+        <li><a class="ico-tls" href="/tls" title="SSL/TLS Client Security Test">SSL/TLS Client Test</a></li>
+        <li class="margin-less"><a class="ico-proxy" href="/proxy" title="Content Filtering Proxy Software Detection">Content Filters</a></li>
+        <li class="margin-less"><a class="ico-more" href="https://browserleaks.com/#more" title="More Tools" rel="nofollow">More Tools</a></li>
+        <li><a class="ico-settings" href="/settings" title="Site Settings" rel="nofollow">Settings</a></li>
+      </ul>
+      <div class="nav-dark"></div>
     </div>
+  </div>
+</div>
+</nav>
 
-    <div class="container">
-        <h1>SAI2破解版本</h1>
-        <table class="file-list">
-            <thead>
-                <tr>
-                    <th>文件名</th>
-                    <th>大小</th>
-                    <th>时间</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><a href="#">[破解版]sai2-20240522.zip</a></td>
-                    <td>3.6 M</td>
-                    <td>2024-05-28</td>
-                </tr>
-                <tr>
-                    <td><a href="#">[破解版]sai2-20231120.zip</a></td>
-                    <td>3.6 M</td>
-                    <td>2023-11-28</td>
-                </tr>
-                <tr>
-                    <td><a href="#">打不开旧版本文件请读.txt</a></td>
-                    <td>472.0 B</td>
-                    <td>2020-04-21</td>
-                </tr>
-                <tr>
-                    <td><a href="#">打不开软件请读.txt</a></td>
-                    <td>849.0 B</td>
-                    <td>2020-03-16</td>
-                </tr>
-                <tr>
-                    <td><a href="#">导入SAI1笔和素材.zip</a></td>
-                    <td>2.3 K</td>
-                    <td>2020-03-16</td>
-                </tr>
-            </tbody>
-        </table>
-        <a href="#" class="download-button">我的网盘</a>
-    </div>
+<div class="responsive-header responsive-show">
+  <div class="responsive-home"><a href="/" title="Home"><div class="svg-icon svg-fingerprint"></div></a></div>
+  <div class="responsive-search"><div class="responsive-search-icon svg-icon svg-search"></div></div>
+  <div class="responsive-search-form n"><input type="search" class="responsive-search-input" maxlength="512" aria-label="Enter IP Address or Domain Name" placeholder="Enter IP Address or Domain Name"><input type="button" class="responsive-search-submit n" value=""></div>
+</div>
 
+<div id="content">
+  <div id="lookup-form" class="responsive-hide">
+    <form action="/search" method="POST">
+    <ul>
+      <li><input tabindex="2" aria-label="IP Address Lookup" placeholder="IP Address Lookup" type="text" id="lookup-input" class="placeholder" name="data" title="Enter IP Address or Domain Name" maxlength="512"></li>
+      <li><input tabindex="3" type="submit" id="lookup-submit" class="svg-search" name="lookup-submit" value="" title="Submit"></li>
+    </ul>
+    </form>
+  </div>
+
+<header><h1><a href="/ip">What Is My IP Address</a></h1></header>
+
+<table class="wb"> 
+<tbody>
+  <tr class="thead"><td colspan="2"><h3>My IP Address</h3></td></tr>
+  <tr><td>IP address</td><td><span class="flag-container" id="client-ipv4" data-ip="208.87.243.123" data-iso_code="US"><img class="flag-icon" src="/img/flags/US.png" alt="US" title="United States (US)"><span class="flag-text wball">208.87.243.123</span></span></td></tr>
+  <tr><td>Hostname</td><td id="hostname" class="wball relative"><noscript><iframe data-html2canvas-ignore src="/api/hostname_iframe/208.87.243.123" scrolling="no" height="26" class="noscript noscript-iframe"></iframe><div class="load-div"></div></noscript></td></tr>
+  <tr class="thead"><td colspan="2"> <a id="vpn" data-html2canvas-ignore href="/vpn" rel="noopener" target="_blank"><span id="vpn_text">Hide Your IP Address</span></a><h3>IP Address Location</h3></td></tr>
+  <tr><td>Country</td><td><span class="flag-container" id="lookup-flag" data-iso_code="US"><img class="flag-icon" src="/img/flags/US.png" alt="US" title="United States (US)"><span class="flag-text wball">United States <span class="row-tag">(<span class="cursor-help" title="United States is in North America (NA)">US</span>)</span></span></span></td></tr>
+  <tr><td>State/Region</td><td>California</td></tr>
+  <tr><td>City</td><td>Walnut</td></tr>
+  <tr><td>ISP</td><td>Psychz Networks</td></tr>
+  <tr><td>Organization</td><td>Psychz Networks</td></tr>
+  <tr><td>Network</td><td><a href="https://bgp.tools/as/40676" rel="noopener" target="_blank" title="BGP.Tools ASN lookup">AS40676</a> Psychz Networks <span class="row-tag">(<span class="cursor-help" title="VPN Host – This network is used by commercial VPN providers/operations">VPN</span>, <span class="cursor-help" title="Content Delivery Network – This network is specialised in content delivery (as a a core segment) and pushes more than 10Gbit/s of CDN traffic">CDN</span>, <span class="cursor-help" title="Server Hosting – This network provides commercial hosting, colocation, VPS, etc services (other people can buy machines and exit traffic from this network)">VPSH</span>, <span class="cursor-help" title="Tor services – This network has Tor exits or Relays on it">TOR</span>, <span class="cursor-help" title="DDoS Mitigation – This AS runs DDoS mitigations appliances / systems for it's customers or downstreams inside this ASN (Not reselling another networks capacity)">DDOSM</span>, <span class="cursor-help" title="Anycast – This network has prefixes that have been detected as anycast on them">ANYCAST</span>)</span></td></tr>
+  <tr><td>Usage Type</td><td>Corporate / Hosting</td></tr>
+  <tr><td>Timezone</td><td>Pacific Daylight Time <span class="row-tag">(<span class="cursor-help" title="Also known as: PDST – Pacific Daylight Saving Time, NAPDT – North American Pacific Daylight Time. Pacific Daylight Time (PDT) is 7 hours behind Coordinated Universal Time (UTC). This time zone is a Daylight Saving Time time zone and is used in: North America.">PDT</span>)</span></td></tr>
+  <tr><td>Local Time</td><td>Mon, 12 Aug 2024 16:38:05 -0700</td></tr>
+  <tr><td><span id="coords-click">Coordinates</span></td><td id="coords-data" data-lat="34.0431" data-lon="-117.8510">34.0431,-117.8510</td></tr>
+  <tr class="thead"><td colspan="2"><h3>IPv6 Leak Test</h3></td></tr>
+  <tr><td>IPv6 Address</td><td id="client-ipv6" class="wball relative"><noscript><iframe data-html2canvas-ignore src="https://[2604:a880:800:10::e6:b001]/api/html" height="26" scrolling="no" class="noscript noscript-iframe"></iframe><div class="load-div noscript-timeout"></div></noscript></td></tr>
+</tbody>
+<tbody id="ipv6-tbody" class="n"></tbody>
+<tbody>
+  <tr class="thead"><td colspan="2"><h3><a href="/webrtc" class="dot" title="WebRTC Leak Test">WebRTC Leak Test</a></h3></td></tr>
+  <tr><td>Local IP address</td><td><span id="rtc-local"></span><span class="noscript">n/a (no js)</span></td></tr>
+  <tr><td>Public IP address</td><td><span id="rtc-public"></span><span class="noscript">n/a (no js)</span></td></tr>
+  <tr class="thead"><td colspan="2"><h3><a href="/dns" class="dot" title="DNS Leak Test">DNS Leak Test</a></h3></td></tr>
+  <tr><td class="responsive-hide-740">Test Results</td><td id="dns-test" class="more" colspan="2"><div class="more-container"><span class="more-inline noscript nojs"></span><button id="dns-run" class="more-button-solo doscript">Run DNS Leak Test</button></div></td></tr>
+  <tr class="n"><td class="responsive-hide-740">Your DNS Servers</td><td colspan="2" id="dns-container"></td></tr>
+</tbody>
+<tbody>
+  <tr class="thead"><td colspan="2"><h3>TCP/IP Fingerprint</h3></td></tr>
+  <tr><td>OS</td><td>Linux (2.2.x-3.x)</td></tr>
+  <tr><td>Link</td><td>Ethernet or modem</td></tr>
+  <tr><td>MTU</td><td>1500</td></tr>
+  <tr><td>Distance</td><td>11 hops</td></tr>
+</tbody>
+  <tr class="thead"><td colspan="2"><h3><a href="/tls" class="dot" title="TLS Client Test">TLS Fingerprint</a></h3></td></tr>
+  <tr><td>JA3 Hash</td><td id="ja3-hash" class="wball relative"><noscript><iframe data-html2canvas-ignore src="https://tls.browserleaks.com/iframe/ja3_hash" scrolling="no" height="26" class="noscript noscript-iframe"></iframe><div class="load-div"></div></noscript></td></tr>
+  <tr class="thead"><td colspan="2"><h3><a href="/http2" class="dot" title="HTTP/2 Fingerprinting">HTTP/2 Fingerprint</a></h3></td></tr>
+  <tr><td>Akamai Hash</td><td id="akamai-hash" class="wball relative"><noscript><iframe data-html2canvas-ignore src="https://tls.browserleaks.com/iframe/akamai_hash" scrolling="no" height="26" class="noscript noscript-iframe"></iframe><div class="load-div"></div></noscript></td></tr>
+<tbody>
+  <tr class="thead"><td colspan="2" class="relative"><h3>HTTP Headers</h3><form class="xform" method="post" action="/ip" onsubmit="return false"><input type="hidden" name="headers-swap" value="1"><button type="submit" data-html2canvas-ignore id="headers-swap" class="xref">raw headers</button></form></td></tr>
+</tbody>
+<tbody id="headers" data-hpack="1">
+  <tr><td>Request</td><td>GET /ip HTTP/2.0</td></tr>
+  <tr><td>Host</td><td>browserleaks.com</td></tr>
+  <tr><td>Sec-CH-UA</td><td>&quot;Chromium&quot;;v=&quot;128&quot;, &quot;Not;A=Brand&quot;;v=&quot;24&quot;, &quot;Microsoft Edge&quot;;v=&quot;128&quot;</td></tr>
+  <tr><td>Sec-CH-UA-Mobile</td><td>?0</td></tr>
+  <tr><td>Sec-CH-UA-Platform</td><td>&quot;Windows&quot;</td></tr>
+  <tr><td>DNT</td><td>1</td></tr>
+  <tr><td>Upgrade-Insecure-Requests</td><td>1</td></tr>
+  <tr><td>User-Agent</td><td>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0</td></tr>
+  <tr><td>Accept</td><td>text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7</td></tr>
+  <tr><td>Sec-Fetch-Site</td><td>none</td></tr>
+  <tr><td>Sec-Fetch-Mode</td><td>navigate</td></tr>
+  <tr><td>Sec-Fetch-User</td><td>?1</td></tr>
+  <tr><td>Sec-Fetch-Dest</td><td>document</td></tr>
+  <tr><td>Accept-Encoding</td><td>gzip, deflate, br, zstd</td></tr>
+  <tr><td>Accept-Language</td><td>zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6</td></tr>
+  <tr><td>Priority</td><td>u=0, i</td></tr>
+  <tr><td>Cookie</td><td>bl_ipv6_more=1</td></tr>
+</tbody>
+</table>
+
+<table class="nomrg nxmrg">
+  <tr class="thead"><td colspan="2"><h3>Tor Relay Details</h3></td></tr>
+  <tr><td class="responsive-hide">Relays</td><td colspan="2">This IP is not identified to be a Tor Relay</td></tr>
+</table>
+<table class="map-table nomrg">
+  <tr class="thead"><td colspan="2"><h3>Where is My IP</h3></td></tr>
+  <tr class="n"><td colspan="2" id="map-td"><div id="map-canvas" class="map-direct"></div></td></tr>
+</table>
+
+<div class="map-warn info noscript">Failed to load the map – JavaScript Disabled</div>
+
+<table id="whois-ip" class="wball" data-source="https://rdap.arin.net/registry/ip/">
+  <tr class="thead"><td colspan="2"><h3>IP Address Whois</h3></td></tr>
+  <tr><td>Whois</td><td><span class="noscript nojs"></span></td></tr>
+</table>
+
+<iframe height="26" data-html2canvas-ignore id="rtc-iframe" sandbox="allow-same-origin"></iframe>
+<script>var rnd="79e4e9c447f7cc0f799e164de778bcaa"</script>
+<script src="/js/ip.js?v=59060426"></script>
+
+<div data-html2canvas-ignore class="info grayscale"><a href="https://db-ip.com" rel="noopener" target="_blank">IP Geolocation by DB-IP</a></div>
+
+<h3 class="section nohistory" id="further-reading" name="further-reading"><a href="#further-reading" title="Click to expand">Further Reading</a></h3>
+<div class="noscript">
+<ul class="list">
+  <li><a href="https://en.wikipedia.org/wiki/IP_address" rel="noopener" target="_blank">IP address – Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" rel="noopener" target="_blank">List of HTTP header fields – Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/TCP/IP_stack_fingerprinting" rel="noopener" target="_blank">TCP/IP stack fingerprinting – Wikipedia</a></li>
+  <li><a href="https://metrics.torproject.org/" rel="noopener" target="_blank">Tor Metrics – Tor Project</a></li>
+</ul>
+</div>
+<h3 data-html2canvas-ignore id="comments"><span id="comments-title">Leave a Comment</span> (279)<span id="comments-nojs" class="noscript"></span></h3>
+<div data-html2canvas-ignore id="remark42"></div>
+
+<footer><div id="footer"><div>BrowserLeaks &copy; 2011-2024 All Right Reserved<br><span id="bdo"><bdo dir="rtl">&#x6d;<!-- ` -->&#x6f;&#x63;<span>&period;&#x73;&#x6b;<!-- ` -->&#x61;&#x65;</span>&#x6c;&#x72;<!-- ` -->&#x65;&#x73;<span>&#x77;&#x6f;&#x72;<!-- ` -->&#x62;&#64;&#x74;</span>&#x63;&#x61;&#x74;<!-- ` -->&#x6e;&#x6f;&#x63;</bdo></span></div></div></footer>
+
+</div>
+
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token":"8b4ea72c307e494ca9fc255874817bf7"}'></script>
 </body>
 </html>
